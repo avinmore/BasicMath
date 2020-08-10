@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BasicMath_Example' do
+  pod 'BasicMath', :path => '../'
+
+  target 'BasicMath_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
