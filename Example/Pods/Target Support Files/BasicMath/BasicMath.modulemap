@@ -1,0 +1,6 @@
+framework module BasicMath {
+  umbrella header "BasicMath-umbrella.h"
+
+  export *
+  module * { export * }
+}
